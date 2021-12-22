@@ -1,9 +1,9 @@
 {
   "repository": {
     "type": "git",
-    "url": "https://github.com/desktop/desktop.git"
+    "url": "https://github.com/Monkei-Solutions/monkei-git.git"
   },
-  "description": "GitHub Desktop build dependencies",
+  "description": "Monkei-Git build dependencies",
   "scripts": {
     "cli": "ts-node --require ./app/test/globals.ts --require ./app/src/cli/dev-commands-global.ts app/src/cli/main.ts",
     "check:eslint": "tsc -P eslint-rules/",
@@ -45,10 +45,24 @@
     "check-modified": "stop-build"
   },
   "author": {
-    "name": "GitHub, Inc.",
-    "email": "opensource+desktop@github.com",
-    "url": "https://desktop.github.com/"
+    "name": "Monkei-Solutions",
+    "email": "monkei-git@descendo.anonaddy.me",
+    "url": "https://hayden-droid.000webhostapp.com"
   },
+   "maintainers": [
+    {
+      "name": "Descendo The Monkei#0624",
+      "email": "github@descendo.anonaddy.me",
+      "url": "https://github.com/Monkei-Cord"
+    }
+  ],
+  "contributors":[
+    {
+      "name": "GitHub, Inc.",
+      "email": "opensource+desktop@github.com",
+      "url": "https://desktop.github.com/"
+    }
+  ], 
   "license": "MIT",
   "engines": {
     "node": ">= 10",
